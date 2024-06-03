@@ -1,0 +1,32 @@
+body {
+	color: #E0B96C;
+	font: 14px 'Inter';
+	background-color: #ffffff;
+	margin: 0;
+}
+button {
+	color: #ffffff;
+	background-color: #c0ac83;
+	border: none;
+	height: 45px;
+	font-family: 'Inter';
+}
+p {
+	margin: 20px 0;
+}
+#wrapper {
+	width: 390px;
+}
+header {
+	font-size: 25px;
+	padding: 35px 30px;
+	background-color: #100f0f;
+}
+a[name="tech.support"] {
+	color: #c0ac83;
+	font-size: 25px;
+	float: right;
+}
+img[name="cover-img"] {
+	size: 390px;
+}
