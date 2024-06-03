@@ -15,7 +15,7 @@ p {
 	margin: 20px 0;
 }
 #wrapper {
-	width: 390px;
+	max-width: auto;
 }
 header {
 	font-size: 25px;
@@ -24,9 +24,9 @@ header {
 }
 a[name="tech.support"] {
 	color: #c0ac83;
-	font-size: 25px;
+	font-size: 30px;
 	float: right;
 }
 img[name="cover-img"] {
-	size: 390px;
+	size: 2000px;
 }
