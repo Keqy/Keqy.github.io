@@ -28,6 +28,7 @@ a[name="tech.support"] {
 	float: right;
 }
 .cover {
+	width: auto;
 	height: 1430px;
 	background-color: #100f0f;
 	background-image: url(../images/cover-bg.jpg);
@@ -41,8 +42,13 @@ a[name="tech.support"] {
 	text-align: center;
 }
 #cover1 {
-	font-size: 140px;
+	font-family: 'Manrope';
+	font-size: 90px;
 }
 #cover2 {
-	font-size: 50px;
+	font-family: 'Montserrat';
+	font-size: 40px;
+}
+form[name="search"] {
+	padding-top: 100px;
 }
