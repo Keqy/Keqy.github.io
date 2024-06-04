@@ -27,6 +27,22 @@ a[name="tech.support"] {
 	font-size: 30px;
 	float: right;
 }
-img[name="cover-img"] {
-	size: 2000px;
+.cover {
+	height: 1435px;
+	background-color: #100f0f;
+	background-image: url(../images/cover-bg.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cover-title {
+	color: #ffffff;
+	text-align: center;
+}
+#cover1 {
+	font-size: 35px;
+}
+#cover2 {
+	font-size: 15px;
 }
