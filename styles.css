@@ -1,0 +1,48 @@
+body {
+	color: #E0B96C;
+	font: 14px 'Inter';
+	background-color: #ffffff;
+	margin: 0;
+}
+button {
+	color: #ffffff;
+	background-color: #c0ac83;
+	border: none;
+	height: 45px;
+	font-family: 'Inter';
+}
+p {
+	margin: 20px 0;
+}
+#wrapper {
+	max-width: auto;
+}
+header {
+	font-size: 25px;
+	padding: 35px 30px;
+	background-color: #100f0f;
+}
+a[name="tech.support"] {
+	color: #c0ac83;
+	font-size: 30px;
+	float: right;
+}
+.cover {
+	height: 1430px;
+	background-color: #100f0f;
+	background-image: url(../images/cover-bg.jpg);
+	background-size: contain;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cover-title {
+	color: #ffffff;
+	text-align: center;
+}
+#cover1 {
+	font-size: 140px;
+}
+#cover2 {
+	font-size: 50px;
+}
