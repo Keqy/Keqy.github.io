@@ -28,10 +28,10 @@ a[name="tech.support"] {
 	float: right;
 }
 .cover {
-	height: 1435px;
+	height: 1430px;
 	background-color: #100f0f;
 	background-image: url(../images/cover-bg.jpg);
-	background-size: cover;
+	background-size: contain;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -41,8 +41,8 @@ a[name="tech.support"] {
 	text-align: center;
 }
 #cover1 {
-	font-size: 35px;
+	font-size: 140px;
 }
 #cover2 {
-	font-size: 15px;
+	font-size: 50px;
 }
