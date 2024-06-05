@@ -95,3 +95,28 @@ button[type="search"] {
 	padding-top: 1.02%;
 	padding-right: 2%;
 }
+p1 {
+	font-family: Montserrat;
+	font-size: 55px;
+	color: #272727;
+	position: relative;
+	top: 130px;
+	left: 60px;
+	border-bottom: 4px solid #c0ac83;
+}
+p2 {
+	font-family: Inter;
+	font-weight: 500;
+	font-size: 40px;
+	color: #fff;
+	background-color: #272727;
+	display: block;
+	position: relative;
+	top: 150px;
+	margin: 50px;
+	padding: 60px; 
+}
+a[name="telegrambot-link"] {
+	font: inherit;
+	color: #c0ac83;
+}
