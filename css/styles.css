@@ -1,12 +1,23 @@
 @font-face {
 	font-weight: 600;
 	font-family: Inter;
-	src: url(../fonts/Inter-Semibold.ttf);
+	src: url(../fonts/Inter-SemiBold.ttf);
+}
+@font-face {
+	font-weight: 400;
+	font-family: Montserrat;
+	src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+	font-weight: 600;
+	font-family: Manrope;
+	src: url(../fonts/Manrope-SemiBold.ttf);
 }
 
 body {
 	color: #E0B96C;
-	font: 14px Inter;
+	font-family: Inter;
+	font-size: 14px;
 	background-color: #ffffff;
 	margin: 0;
 }
@@ -35,20 +46,10 @@ a[name="tech.support"] {
 	float: right;
 }
 
-@font-face {
-	font-weight: 600;
-	font-family: Manrope;
-	src: url(../fonts/Manrope-Semibold.ttf);
-}
-@font-face {
-	font-weight: 400;
-	font-family: Montserrat;
-	src: url(../fonts/Montserrat-Regular.ttf);
-}
-
 .cover {
 	width: auto;
-	height: 1430px;
+	height: auto;
+	padding-top: 47%;
 	background-color: #100f0f;
 	background-image: url(../images/cover-bg.jpg);
 	background-size: cover;
@@ -56,18 +57,23 @@ a[name="tech.support"] {
 	justify-content: center;
 	align-items: center;
 }
+
 .cover-title {
 	color: #ffffff;
 	text-align: center;
 }
+
 #cover1 {
 	font-family: Manrope;
 	font-size: 90px;
 }
+
 #cover2 {
 	font-family: Montserrat;
 	font-size: 40px;
 }
+
 form[name="search"] {
-	padding-top: 100px;
+	padding-top: 8%;
+	padding-bottom: 12%;
 }
