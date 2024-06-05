@@ -1,32 +1,51 @@
+@font-face {
+	font-weight: 600;
+	font-family: Inter;
+	src: url(../fonts/Inter-Semibold.ttf);
+}
+
 body {
 	color: #E0B96C;
-	font: 14px 'Inter';
+	font: 14px Inter;
 	background-color: #ffffff;
 	margin: 0;
 }
+
 button {
 	color: #ffffff;
 	background-color: #c0ac83;
 	border: none;
 	height: 45px;
-	font-family: 'Inter';
+	font-family: Inter;
 }
-p {
-	margin: 20px 0;
-}
+
 #wrapper {
 	max-width: auto;
 }
+
 header {
 	font-size: 25px;
 	padding: 35px 30px;
 	background-color: #100f0f;
 }
+
 a[name="tech.support"] {
 	color: #c0ac83;
 	font-size: 30px;
 	float: right;
 }
+
+@font-face {
+	font-weight: 600;
+	font-family: Manrope;
+	src: url(../fonts/Manrope-Semibold.ttf);
+}
+@font-face {
+	font-weight: 400;
+	font-family: Montserrat;
+	src: url(../fonts/Montserrat-Regular.ttf);
+}
+
 .cover {
 	width: auto;
 	height: 1430px;
@@ -42,11 +61,11 @@ a[name="tech.support"] {
 	text-align: center;
 }
 #cover1 {
-	font-family: 'Manrope';
+	font-family: Manrope;
 	font-size: 90px;
 }
 #cover2 {
-	font-family: 'Montserrat';
+	font-family: Montserrat;
 	font-size: 40px;
 }
 form[name="search"] {
