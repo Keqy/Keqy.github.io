@@ -28,6 +28,7 @@ button {
 	border: none;
 	height: 45px;
 	font-family: Inter;
+	border-radius: 10px;
 }
 
 #wrapper {
@@ -41,8 +42,9 @@ header {
 }
 
 a[name="tech.support"] {
+	padding-top: 1%;
 	color: #c0ac83;
-	font-size: 30px;
+	font-size: 40px;
 	float: right;
 }
 
@@ -76,4 +78,8 @@ a[name="tech.support"] {
 form[name="search"] {
 	padding-top: 8%;
 	padding-bottom: 12%;
+}
+
+.search {
+	background-color: #fff;
 }
